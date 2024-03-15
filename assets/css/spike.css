@@ -560,7 +560,7 @@ background-image: linear-gradient(
 }
 
 .header-area .main-nav .nav li:last-child a {
-  background-color: #1e1e1e;
+  background-color: #960000;
   color: #fff;
   font-size: 14px;
   font-weight: 400;
@@ -572,6 +572,7 @@ background-image: linear-gradient(
 
 .header-area .main-nav .nav li:last-child a i {
   background-color: #f35525;
+  color:white;
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -781,6 +782,11 @@ background-image: linear-gradient(
     font-weight: 300 !important;
     text-transform: capitalize !important;
   }
+  .header-area .main-nav .nav li:last-child a {
+    color:black;
+  }
+
+
   .header-area {
     padding: 0px 15px;
     height: 80px;
@@ -1761,7 +1767,8 @@ body {
     margin: 5px;
   }
   .header-area .main-nav .nav li:last-child {
-    display: none;
+    /* display: none; */
+    color: #000;
   }
 }
 
